@@ -3,14 +3,10 @@
   padding: 0;
 }
 
-.menu-cards {
-  width: 1200px;
-  margin: auto;
-}
-
-.menu-cards h2 {
+.menu-cards h3 {
+  font-family: 'Dancing Script', cursive;
   text-align: center;
-  font-size: 26px;
+  font-size: 40px;
 }
 
 .lista-select ul {
@@ -39,7 +35,7 @@
 
 .card {
   margin: 20px;
-  width: 360px;
+  width: 340px;
   height: 420px;
   background-color: #222831;
   border-radius: 26px;
@@ -94,4 +90,8 @@
   margin-right: 20px;
 }
 
-.card-price .circle img {}
+.btn-sec {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0 40px 0;
+}

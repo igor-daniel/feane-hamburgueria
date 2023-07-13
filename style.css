@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+main {
+  background-image: url('images/bg-hamburguer.jpg');
+  background-position: left;
+  background-size: cover;
+  height: 100vh;
+}
+
+.limite {
+  width: 1150px;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+header .logo a {
+  font-family: 'Dancing Script', cursive;
+  display: block;
+  font-size: 30px;
+  /* padding: 15px 0; */
+  margin-top: 25px;
+}
+
+header .menu a {
+  font-size: 18px;
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 0 17px;
+  margin-top: 30px;
+  transition: 1s;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header .menu a:hover {
+  color: #ff9718;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 17px;
+  /* text-transform: uppercase */
+  padding: 10px 40px;
+  background-color: #ffbe33;
+  border-radius: 45px;
+  margin-top: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.content-center div {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 600px;
+  margin-top: 100px;
+}
+
+.content-center h1 {
+  font-family: 'Dancing Script', cursive;
+  color: #FFf;
+  font-size: 50px;
+}
+
+.content-center p {
+  padding: 30px 0;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.content-center a {
+  width: 90px;
+}
+
+.products {
+  display: flex;
+  justify-content: space-around;
+}
+
+.product {
+  background-color: #222831;
+  width: 45%;
+  display: flex;
+  border-radius: 5px;
+  margin: 80px 0 80px 0;
+}
+
+.product-img img {
+  margin: 10px;
+  width: 170px;
+  height: 170px;
+  max-width: 100%;
+  border-radius: 50%;
+  border: 5px solid #ffbe33;
+}
+
+.product-desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #FFF;
+}
+
+.product-desc p {
+  font-family: 'Dancing Script', cursive;
+  line-height: 40px;
+  font-size: 23px;
+}
+
+.product-desc .large {
+  font-size: 32px;
+}
+
+.product-desc .mini {
+  font-size: 16px;
+}
