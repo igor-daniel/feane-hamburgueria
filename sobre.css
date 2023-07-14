@@ -66,9 +66,10 @@ footer {
 }
 
 .block-top div h3 {
-  font-size: 25px;
+  font-size: 35px;
   padding: 80px 0 20px 0;
   color: #FFF;
+  font-family: 'Dancing Script', cursive;
 }
 
 .block-top div a,
@@ -76,8 +77,9 @@ footer {
   list-style: none;
   text-decoration: none;
   color: #FFF;
-  font-size: 18px;
+  font-size: 16px;
   text-align: center;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .block-botom {
