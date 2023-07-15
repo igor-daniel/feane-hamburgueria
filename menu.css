@@ -3,6 +3,26 @@
   padding: 0;
 }
 
+.header-pages {
+  background-image: url('images/bg-hamburguer.jpg');
+  background-position: top;
+  background-size: cover;
+  margin-bottom: 80px;
+}
+
+.sobre .header-pages {
+  margin-bottom: 0;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-content div {
+  padding-bottom: 25px;
+}
+
 .menu-cards h3 {
   font-family: 'Dancing Script', cursive;
   text-align: center;
