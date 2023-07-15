@@ -4,7 +4,7 @@
 }
 
 .header-pages {
-  background-image: url('images/bg-hamburguer.jpg');
+  background-image: url('../images/bg-hamburguer.jpg');
   background-position: top;
   background-size: cover;
   margin-bottom: 80px;

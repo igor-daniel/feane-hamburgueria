@@ -10,7 +10,7 @@ a {
 }
 
 main {
-  background-image: url('images/bg-hamburguer.jpg');
+  background-image: url('../images/bg-hamburguer.jpg');
   background-position: left;
   background-size: cover;
   height: 100vh;
