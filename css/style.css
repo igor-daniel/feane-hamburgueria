@@ -195,3 +195,76 @@ header .menu a:hover {
   border: 5px solid #ffbe33;
   margin: 20px 0;
 }
+
+
+.none {
+  display: none;
+}
+
+/*
+.block {
+  display: block;
+} */
+.logo img {
+  display: none;
+}
+
+@media(max-width: 990px) {
+  .logo img {
+    padding: 15px;
+    display: block;
+  }
+
+  .logo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .limite {
+    width: 780px;
+  }
+
+  /* header .menu,
+  header .menu-btn {
+    display: none;
+  } */
+
+
+  header {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  header .menu {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .header-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .header-content div {
+    padding-bottom: 0px !important;
+  }
+
+  .header-content .menu-btn {
+    margin-bottom: 20px;
+  }
+
+  header .menu a {
+    font-size: 17px;
+    margin-top: 20px;
+  }
+
+  .hide {
+    display: none !important;
+  }
+
+
+}
