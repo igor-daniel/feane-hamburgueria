@@ -266,5 +266,39 @@ header .menu a:hover {
     display: none !important;
   }
 
+  .product {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 15px 0px;
+  }
 
+  .desc-hamb .image {
+    width: 300px;
+  }
+
+  .desc-hamb .sobre-desc {
+    width: 300px;
+  }
+
+  .form input,
+  .form select {
+    width: 300px;
+    padding: 7px 5px 7px 20px;
+    margin: 10px 0;
+
+  }
+
+  .map iframe {
+    width: 350px;
+    height: 300px;
+  }
+
+  .box-coment {
+    width: 340px;
+  }
+
+  /* footer .block-botom {
+    width: 780px;
+  } */
 }

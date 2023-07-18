@@ -53,7 +53,6 @@ footer {
 
 .block-top {
   display: flex;
-  width: 1200px;
   margin: auto;
   justify-content: space-around;
 }
@@ -83,7 +82,7 @@ footer {
 }
 
 .block-botom {
-  width: 1200px;
+
   margin: auto;
   text-align: center;
   color: #FFF;
